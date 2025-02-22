@@ -1,0 +1,5 @@
+# Project exclude paths
+/core/target/
+/ear/target/
+/ejb/target/
+/web/target/

@@ -1,0 +1,93 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+body {
+    font-family: "Segoe UI Light", sans-serif;
+}
+
+/* Header Styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #079db4;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+/* Main Content Styles */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #079db4;
+    color: #fff;
+}
+
+/* Row Styles */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+
+/* Traffic Light Status Styles */
+.status-round {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin: 0 auto;
+}
+
+.status-red {
+    background-color: #c21717;
+}
+
+.status-green {
+    background-color: #0ac90a;
+}
+
+.status-yellow {
+    background-color: #f1e242;
+}
+
+/* Image Styles */
+.route-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
